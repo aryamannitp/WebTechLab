@@ -1,0 +1,16 @@
+var Person=new Object();
+Person.FirstName="Adarsh";
+Person.LastName="Kishore";
+Person.OfficeAddress="Boring Road Patna";
+console.log("Person 1 full name :"+Person.FirstName+" "+Person.LastName);
+console.log("Person1 Address:"+Person.OfficeAddress);
+Person.FirstName="Anushka";
+Person.LastName="Priya";
+Person.OfficeAddress="Aashiana Nagar Patna";
+console.log("Person 2 full name :"+Person.FirstName+" "+Person.LastName);
+console.log("Person2 Address:"+Person.OfficeAddress);
+Person.FirstName="Ruturaj";
+Person.LastName="Gaikawad";
+Person.OfficeAddress="West Gandhi Maidan Patna ";
+console.log("Person 3 full name :"+Person.FirstName+" "+Person.LastName);
+console.log("Person 3 Address:"+Person.OfficeAddress);
